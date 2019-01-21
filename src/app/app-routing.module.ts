@@ -54,6 +54,10 @@ const routes: Routes = [
   {
     path: 'component-alert',
     loadChildren: './component-alert/component-alert.module#ComponentAlertPageModule'
+  },
+  {
+    path: 'component-badges',
+    loadChildren: './component-badges/component-badges.module#ComponentBadgesPageModule'
   }
 ];
 
