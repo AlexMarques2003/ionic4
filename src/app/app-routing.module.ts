@@ -58,7 +58,8 @@ const routes: Routes = [
   {
     path: 'component-badges',
     loadChildren: './component-badges/component-badges.module#ComponentBadgesPageModule'
-  }
+  },
+  { path: 'component-button', loadChildren: './component-button/component-button.module#ComponentButtonPageModule' }
 ];
 
 @NgModule({
