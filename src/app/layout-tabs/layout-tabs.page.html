@@ -1,0 +1,38 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
+      <ion-title>
+        Layout - Tabs
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content padding>
+  
+    <ion-tabs>
+      <ion-tab tab="home"><ion-header padding><ion-title>Home</ion-title></ion-header><ion-content padding><h1>Aqui tem as informações da home</h1></ion-content></ion-tab>
+      <ion-tab tab="map"><ion-header padding><ion-title>Map</ion-title></ion-header><ion-content padding><h1>Aqui tem as informações do mapa</h1></ion-content></ion-tab>
+      <ion-tab tab="notificacao"><ion-header padding><ion-title>Notificações</ion-title></ion-header><ion-content padding><h1>Aqui tem as informações das notificações</h1></ion-content></ion-tab>
+
+      <ion-tab-bar slot="bottom">
+  
+          <ion-tab-button tab="home">
+              <ion-icon name="home"></ion-icon>
+              <ion-label>Home</ion-label>
+            </ion-tab-button>
+
+        <ion-tab-button tab="map">
+          <ion-icon name="map"></ion-icon>
+          <ion-label>Mapa</ion-label>
+        </ion-tab-button>
+  
+        <ion-tab-button tab="notificacao"> 
+          <ion-icon name="alert"></ion-icon>
+          <ion-label>Notificações</ion-label>
+          <ion-badge color="danger">6</ion-badge>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-content>

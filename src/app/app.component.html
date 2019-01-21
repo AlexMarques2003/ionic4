@@ -8,11 +8,11 @@
       </ion-header>
       <ion-content>
         <ion-list>
-          <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages">
-            <ion-item [routerDirection]="'root'" [routerLink]="[p.url]">
-              <ion-icon slot="start" [name]="p.icon"></ion-icon>
+          <ion-menu-toggle auto-hide="false" *ngFor="let pagina of paginas">
+            <ion-item [routerDirection]="'root'" [routerLink]="[pagina.url]">
+              <ion-icon slot="start" [name]="pagina.icone"></ion-icon>
               <ion-label>
-                {{p.title}}
+                {{pagina.titulo}}
               </ion-label>
             </ion-item>
           </ion-menu-toggle>
