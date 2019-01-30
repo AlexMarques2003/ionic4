@@ -7,7 +7,8 @@ import { Injectable } from '@angular/core';
 export class CepService {
 
   constructor(private http: HttpClient) { }
-  consultarCep(cep: any){
+  
+  consultarCep(cep: number){
     let url = 'https://viacep.com.br/ws/' + cep + '/json/';
     return this.http.get(url).toPromise();
   }
