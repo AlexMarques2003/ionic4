@@ -14,7 +14,8 @@ export class AppComponent {
     {titulo: "Home", icone:"home", url:'/home'},
     {titulo: "Instalação", icone:"arrow-dropright", url:'/instalacao'},
     {titulo: "Layout", icone:"arrow-dropright", url:'/layout'},
-    {titulo: "Componentes", icone:"arrow-dropright", url:'/componentes'}
+    {titulo: "Componentes", icone:"arrow-dropright", url:'/componentes'},
+    {titulo: "Api", icone:"arrow-dropright", url:'/api-externa'}
   ];
 
   constructor(

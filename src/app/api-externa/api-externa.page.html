@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Api-Externa
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content padding>
+  <ion-button expand="full" (click)="get()">GET - Receber dados do Servidor</ion-button>
+  <ion-button expand="full" (click)="post()">POST - Enviar dados para o servidor</ion-button>
+  <ion-button expand="full" (click)="put()">PUT - Atualizar dados no servidor</ion-button>
+  <ion-button expand="full" (click)="delete()">DELETE - Excluir dados no servidor</ion-button>
+  <ion-button expand="full" (click)="login()">LOGIN - Login no servidor</ion-button>
+  <ion-button expand="full" (click)="obterDadosDaEmpresa()">OBTER DADOS DA EMPRESA</ion-button>
+  <ion-button expand="full" (click)="adicionar()">CADASTRAR DADOS DA EMPRESA</ion-button>
+  <ion-button expand="full" (click)="consultarCep()">CEP</ion-button>
+  
+  <h4>Resposta do serviço</h4>
+  {{result}}
+  
+</ion-content>
