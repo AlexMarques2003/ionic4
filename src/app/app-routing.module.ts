@@ -24,7 +24,8 @@ const routes: Routes = [
   { path: 'component-fab', loadChildren: './component-fab/component-fab.module#ComponentFabPageModule' },
   { path: 'component-input', loadChildren: './component-input/component-input.module#ComponentInputPageModule' },
   { path: 'component-list', loadChildren: './component-list/component-list.module#ComponentListPageModule' },
-  { path: 'api-externa', loadChildren: './api-externa/api-externa.module#ApiExternaPageModule' }
+  { path: 'api-externa', loadChildren: './api-externa/api-externa.module#ApiExternaPageModule' },
+  { path: 'component-loading', loadChildren: './component-loading/component-loading.module#ComponentLoadingPageModule' }
 ];
 
 @NgModule({

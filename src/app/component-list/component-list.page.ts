@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComponentListPage implements OnInit {
 
-
   frutas : string[] =['Abacate', 'Maça', 'Manga'];
   constructor() { }
 

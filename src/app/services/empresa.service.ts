@@ -34,7 +34,7 @@ export class EmpresaService {
 
     return this.http.post(url, body, { headers : headers }).toPromise();
   }
-
+/*
   excluir(id: any){
 
     let url = 'http://localhost:8080/api/empresas/excluir' + id;
@@ -46,5 +46,5 @@ export class EmpresaService {
 
     return this.http.post(url, body, { headers : headers }).toPromise();
   }
-
+*/
 }

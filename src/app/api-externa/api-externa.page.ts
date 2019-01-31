@@ -35,7 +35,7 @@ export class ApiExternaPage implements OnInit {
     this.usuarioService.login()
       .then((response) => {
         this.result = JSON.stringify(response);
-        this.token = response.data.token;
+        //this.token = response.data.token;
         console.log(this.token);
       }).catch((response) => {
         this.result = JSON.stringify(response);
@@ -72,6 +72,4 @@ export class ApiExternaPage implements OnInit {
       this.result = JSON.stringify(response);
     });
   }
-
-  
 }
