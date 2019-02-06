@@ -25,7 +25,11 @@ const routes: Routes = [
   { path: 'component-input', loadChildren: './component-input/component-input.module#ComponentInputPageModule' },
   { path: 'component-list', loadChildren: './component-list/component-list.module#ComponentListPageModule' },
   { path: 'api-externa', loadChildren: './api-externa/api-externa.module#ApiExternaPageModule' },
-  { path: 'component-loading', loadChildren: './component-loading/component-loading.module#ComponentLoadingPageModule' }
+  { path: 'component-loading', loadChildren: './component-loading/component-loading.module#ComponentLoadingPageModule' },
+  { path: 'component-modal', loadChildren: './component-modal/component-modal.module#ComponentModalPageModule' },
+  { path: 'component-modal-interno', loadChildren: './component-modal-interno/component-modal-interno.module#ComponentModalInternoPageModule' },
+  { path: 'component-range', loadChildren: './component-range/component-range.module#ComponentRangePageModule' },
+  { path: 'component-select', loadChildren: './component-select/component-select.module#ComponentSelectPageModule' }
 ];
 
 @NgModule({
