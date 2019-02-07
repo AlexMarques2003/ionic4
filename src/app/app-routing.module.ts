@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', redirectTo: 'component-slides', pathMatch: 'full' },
   { path: 'home', loadChildren: './home/home.module#HomePageModule' },
   { path: 'instalacao', loadChildren: './instalacao/instalacao.module#InstalacaoPageModule' },
   { path: 'layout', loadChildren: './layout/layout.module#LayoutPageModule' },
@@ -29,7 +29,10 @@ const routes: Routes = [
   { path: 'component-modal', loadChildren: './component-modal/component-modal.module#ComponentModalPageModule' },
   { path: 'component-modal-interno', loadChildren: './component-modal-interno/component-modal-interno.module#ComponentModalInternoPageModule' },
   { path: 'component-range', loadChildren: './component-range/component-range.module#ComponentRangePageModule' },
-  { path: 'component-select', loadChildren: './component-select/component-select.module#ComponentSelectPageModule' }
+  { path: 'component-select', loadChildren: './component-select/component-select.module#ComponentSelectPageModule' },
+  { path: 'component-slides', loadChildren: './component-slides/component-slides.module#ComponentSlidesPageModule' },
+  { path: 'component-spinner', loadChildren: './component-spinner/component-spinner.module#ComponentSpinnerPageModule' },
+  { path: 'component-toast', loadChildren: './component-toast/component-toast.module#ComponentToastPageModule' }
 ];
 
 @NgModule({

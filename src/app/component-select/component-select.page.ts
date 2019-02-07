@@ -20,7 +20,10 @@ export class ComponentSelectPage implements OnInit {
     subHeader: 'Qual a cor do seu cabelo?',
     message: 'informe a cor dominante'
   };
-
+  customSheetOptions: any= {
+    header: 'Cores',
+    subHeader: 'Selecione sua cor favorita'
+  };
   constructor() { }
 
   ngOnInit() {

@@ -62,6 +62,15 @@
         <ion-select-option value="red">Vermelho</ion-select-option>
       </ion-select>
     </ion-item>
+    <ion-item>
+      <ion-label>Action Sheet</ion-label>
+      <ion-select [interfaceOptions]="customSheetOptions" interface="action-sheet" placeHolder="Selecione" value="red" onText="Selecionar" cancelText="Cancelar">
+        <ion-select-option value="red">Vermelho</ion-select-option>
+        <ion-select-option value="yellow">Amarelo</ion-select-option>
+        <ion-select-option value="orange">Laranja</ion-select-option>
+        <ion-select-option value="green">Verde</ion-select-option>
+      </ion-select>
+    </ion-item>
 
   </ion-list>
 
