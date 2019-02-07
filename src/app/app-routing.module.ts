@@ -32,7 +32,10 @@ const routes: Routes = [
   { path: 'component-select', loadChildren: './component-select/component-select.module#ComponentSelectPageModule' },
   { path: 'component-slides', loadChildren: './component-slides/component-slides.module#ComponentSlidesPageModule' },
   { path: 'component-spinner', loadChildren: './component-spinner/component-spinner.module#ComponentSpinnerPageModule' },
-  { path: 'component-toast', loadChildren: './component-toast/component-toast.module#ComponentToastPageModule' }
+  { path: 'component-toast', loadChildren: './component-toast/component-toast.module#ComponentToastPageModule' },
+  { path: 'component-infinit-scroll', loadChildren: './component-infinit-scroll/component-infinit-scroll.module#ComponentInfinitScrollPageModule' },
+  { path: 'component-popover', loadChildren: './component-popover/component-popover.module#ComponentPopoverPageModule' },
+  { path: 'component-popover-interno', loadChildren: './component-popover-interno/component-popover-interno.module#ComponentPopoverInternoPageModule' }
 ];
 
 @NgModule({
