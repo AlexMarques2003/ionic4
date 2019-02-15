@@ -27,15 +27,26 @@ const routes: Routes = [
   { path: 'api-externa', loadChildren: './api-externa/api-externa.module#ApiExternaPageModule' },
   { path: 'component-loading', loadChildren: './component-loading/component-loading.module#ComponentLoadingPageModule' },
   { path: 'component-modal', loadChildren: './component-modal/component-modal.module#ComponentModalPageModule' },
-  { path: 'component-modal-interno', loadChildren: './component-modal-interno/component-modal-interno.module#ComponentModalInternoPageModule' },
+  {
+    path: 'component-modal-interno',
+    loadChildren: './component-modal-interno/component-modal-interno.module#ComponentModalInternoPageModule'
+  },
   { path: 'component-range', loadChildren: './component-range/component-range.module#ComponentRangePageModule' },
   { path: 'component-select', loadChildren: './component-select/component-select.module#ComponentSelectPageModule' },
   { path: 'component-slides', loadChildren: './component-slides/component-slides.module#ComponentSlidesPageModule' },
   { path: 'component-spinner', loadChildren: './component-spinner/component-spinner.module#ComponentSpinnerPageModule' },
   { path: 'component-toast', loadChildren: './component-toast/component-toast.module#ComponentToastPageModule' },
-  { path: 'component-infinit-scroll', loadChildren: './component-infinit-scroll/component-infinit-scroll.module#ComponentInfinitScrollPageModule' },
-  { path: 'component-popover', loadChildren: './component-popover/component-popover.module#ComponentPopoverPageModule' },
-  { path: 'component-popover-interno', loadChildren: './component-popover-interno/component-popover-interno.module#ComponentPopoverInternoPageModule' }
+  {
+    path: 'component-infinit-scroll',
+    loadChildren: './component-infinit-scroll/component-infinit-scroll.module#ComponentInfinitScrollPageModule'
+  },
+  {
+    path: 'component-popover',
+    loadChildren: './component-popover/component-popover.module#ComponentPopoverPageModule'
+  },
+  { path: 'component-refresher', loadChildren: './component-refresher/component-refresher.module#ComponentRefresherPageModule' },
+  { path: 'component-searchbar', loadChildren: './component-searchbar/component-searchbar.module#ComponentSearchbarPageModule' },
+  { path: 'component-toggle', loadChildren: './component-toggle/component-toggle.module#ComponentTogglePageModule' }
 ];
 
 @NgModule({

@@ -44,7 +44,7 @@ export class EmpresaService {
 
     let body = empresa;
 
-    return this.http.post(url, body, { headers : headers }).toPromise();
+    return this.http.delete(url, body, { headers : headers }).toPromise();
   }
 */
 }

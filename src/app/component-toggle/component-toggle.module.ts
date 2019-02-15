@@ -1,4 +1,3 @@
-import { ComponentPopoverInternoComponent } from './../component-popover-interno/component-popover-interno.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -6,12 +5,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ComponentPopoverPage } from './component-popover.page';
+import { ComponentTogglePage } from './component-toggle.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: ComponentPopoverPage
+    component: ComponentTogglePage
   }
 ];
 
@@ -22,7 +21,6 @@ const routes: Routes = [
     IonicModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [ComponentPopoverPage, ComponentPopoverInternoComponent],
-  entryComponents: [ComponentPopoverInternoComponent]
+  declarations: [ComponentTogglePage]
 })
-export class ComponentPopoverPageModule {}
+export class ComponentTogglePageModule {}

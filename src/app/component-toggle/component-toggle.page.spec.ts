@@ -1,22 +1,22 @@
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ComponentPopoverInternoPage } from './component-popover-interno.page';
+import { ComponentTogglePage } from './component-toggle.page';
 
-describe('ComponentPopoverInternoPage', () => {
-  let component: ComponentPopoverInternoPage;
-  let fixture: ComponentFixture<ComponentPopoverInternoPage>;
+describe('ComponentTogglePage', () => {
+  let component: ComponentTogglePage;
+  let fixture: ComponentFixture<ComponentTogglePage>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ComponentPopoverInternoPage ],
+      declarations: [ ComponentTogglePage ],
       schemas: [CUSTOM_ELEMENTS_SCHEMA],
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ComponentPopoverInternoPage);
+    fixture = TestBed.createComponent(ComponentTogglePage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

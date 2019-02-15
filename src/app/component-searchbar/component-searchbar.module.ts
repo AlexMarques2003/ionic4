@@ -5,12 +5,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ComponentPopoverInternoPage } from './component-popover-interno.page';
+import { ComponentSearchbarPage } from './component-searchbar.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: ComponentPopoverInternoPage
+    component: ComponentSearchbarPage
   }
 ];
 
@@ -21,6 +21,6 @@ const routes: Routes = [
     IonicModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [ComponentPopoverInternoPage]
+  declarations: [ComponentSearchbarPage]
 })
-export class ComponentPopoverInternoPageModule {}
+export class ComponentSearchbarPageModule {}
