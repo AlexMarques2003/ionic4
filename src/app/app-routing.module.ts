@@ -46,7 +46,9 @@ const routes: Routes = [
   },
   { path: 'component-refresher', loadChildren: './component-refresher/component-refresher.module#ComponentRefresherPageModule' },
   { path: 'component-searchbar', loadChildren: './component-searchbar/component-searchbar.module#ComponentSearchbarPageModule' },
-  { path: 'component-toggle', loadChildren: './component-toggle/component-toggle.module#ComponentTogglePageModule' },  { path: 'animacoes', loadChildren: './animacoes/animacoes.module#AnimacoesPageModule' }
+  { path: 'component-toggle', loadChildren: './component-toggle/component-toggle.module#ComponentTogglePageModule' },  { path: 'animacoes', loadChildren: './animacoes/animacoes.module#AnimacoesPageModule' },
+  { path: 'componentes-nativos', loadChildren: './componentes-nativos/componentes-nativos.module#ComponentesNativosPageModule' },
+  { path: 'component-native-camera', loadChildren: './component-native-camera/component-native-camera.module#ComponentNativeCameraPageModule' }
 
 ];
 
